@@ -36,6 +36,24 @@ A curated set of LeetCode problems assigned during coursework, designed to sharp
 - ✅ [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) - Easy  
 - ✅ [881. Boats to Save People](https://leetcode.com/problems/boats-to-save-people/) - Medium  
 
+### 🗓️ Day 6  
+- ✅ [79. Word Search](https://leetcode.com/problems/word-search/) – Medium  
+- ✅ [77. Combinations](https://leetcode.com/problems/combinations/) – Medium  
+- ✅ [39. Combination Sum](https://leetcode.com/problems/combination-sum/) – Medium  
+
+### 🗓️ Day 7  
+- ✅ [198. House Robber](https://leetcode.com/problems/house-robber/) – Medium  
+- ✅ [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) – Medium  
+- ✅ [62. Unique Paths](https://leetcode.com/problems/unique-paths/) – Medium  
+
+
+### 🗓️ Day 8  
+- ✅ [901. Online Stock Span](https://leetcode.com/problems/online-stock-span/) – Medium  
+- ✅ [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) – Medium  
+- ✅ [71. Simplify Path](https://leetcode.com/problems/simplify-path/) – Medium  
+
+
+
 ---
 
 ## 🧠 How to Use This Repo
