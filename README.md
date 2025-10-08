@@ -52,6 +52,11 @@ A curated set of LeetCode problems assigned during coursework, designed to sharp
 - ✅ [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) – Medium  
 - ✅ [71. Simplify Path](https://leetcode.com/problems/simplify-path/) – Medium  
 
+### 🗓️ Day 9
+- ✅ [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) – Easy  
+- ✅ [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/) – Easy  
+- ✅ [143. Reorder List](https://leetcode.com/problems/reorder-list/) – Medium  
+
 
 
 ---
