@@ -1,4 +1,4 @@
-package week02.Questions;
+package week02.Questions.Conversions;
 
 import java.util.Scanner;
 import java.util.Stack;

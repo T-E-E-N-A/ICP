@@ -1,9 +1,9 @@
-package week02.Questions;
+package week02.Questions.Conversions;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class evaluatePrefix {
+public class evaluatePostFix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -11,23 +11,23 @@ public class evaluatePrefix {
         for(int i=0 ; i<n ; i++){
             nums1[i] = sc.next();
         }
-        int ans = EvaluatePrefix(nums1);
+        int ans = evaluatePostfix(nums1);
         System.out.println(ans);
         sc.close();
     }
-    // fn to evaluate prefix notation
-    public static int EvaluatePrefix(String[] arr) {
+    public static int evaluatePostfix(String[] arr) {
+        // code here
         // Stack for integers i.e. values and solved one 
         Stack<Integer> st =   new Stack<>();
         
-        for(int i=arr.length-1 ; i>=0 ; i--){
+        for(int i=0 ; i<arr.length ; i++){
             // if integer then go in stack
             if(Character.isDigit(arr[i].charAt(0)) || (arr[i].length()>1 && Character.isDigit(arr[i].charAt(1)))){
                 st.push(Integer.parseInt(arr[i]));
             }else{
                 // if operation then get evaluated
-                int a = st.pop();
                 int b = st.pop();
+                int a = st.pop();
                 if(arr[i].equals("+")){
                     st.push(a+b);
                 }else if(arr[i].equals("-")){
